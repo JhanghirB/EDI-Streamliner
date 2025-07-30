@@ -1,0 +1,33 @@
+<div class="section">
+    
+    
+      <div class="OrgIdText">
+        <p>Organization ID:</p>
+      </div>
+
+      <div class="input-form-container">
+      <div class="InputForm">
+        <input id="userInput" [(ngModel)]="orgID" type="text" placeholder="Enter Org ID"><br>
+        
+      </div>
+      </div>
+ 
+
+    
+    <div class="radio">
+    
+    <form>
+    <div class="ClaimTypeText">
+      <br><br><p>Claim Type: </p>
+    </div> <br>
+      <input type="radio" id="837" name="claimType" value="837" (click) ="is837()">
+      <label for="837">837</label>
+      <input type="radio" id="835" name="claimType" value="835" (click)="is835()">
+      <label for="835">835</label><br><br><br>
+    </form>
+    </div>
+    <div class="SubmitButton">
+      <button class="orgIDSubmit" (click)="returnID()">Submit</button><br><br>
+      <div *ngIf="errCheck" class="error">OrgID not found or an error occurred.</div>
+    </div>
+</div>

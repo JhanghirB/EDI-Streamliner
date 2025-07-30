@@ -1,0 +1,140 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+  }
+
+
+
+  .main {
+    background-color: #ffcccc;
+    border: 1px solid #ff0000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    
+  }
+  .OrgIdText
+  {
+    text-align: center;
+    font-size: x-large;
+    padding-top: 50px;
+    
+  }
+  p {
+    margin: 5px 0;
+  }
+
+
+  .input-form-container{
+    justify-content: center;
+    display: flex;
+    padding-top: 25px;
+  }
+  .InputForm {
+    align-items: center;
+    
+  }
+ 
+  input[type="text"] {
+    width: 500px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    text-align: center;
+
+  }
+  
+  button {
+    
+    width: 10%;
+    background-color: #ff0000;
+    cursor:pointer;
+    background: #e41f35;
+    border-radius: 5px;
+    font-weight: 400;
+    letter-spacing: .025em;
+    color: #fff;
+    font-size: 1em;
+    border: 0 none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: all .1s ease;
+  }
+  .SubmitButton{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  button:hover {
+    background-color: #cc0000;
+  }
+  button:active {
+    background-color: #bb0202;
+    box-shadow: 0 5px #666666;
+    transform: translateY(4px); 
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  .radio {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .radio input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+  }
+  
+  .radio label {
+    background-color: #e4e4e4;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    padding: 8px 16px;
+    margin-right: -1px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .radio label:hover {
+    cursor: pointer;
+  }
+  
+  .radio input:checked + label {
+    background-color: #ff4242;
+    box-shadow: none;
+  }
+  
+  .radio label:first-of-type {
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .radio label:last-of-type {
+    border-radius: 0 4px 4px 0;
+  }
+  .form {
+    max-width: 400px;
+    font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.625;
+    margin: 8px auto;
+    padding: 16px;
+  }
+  .ClaimTypeText {
+  text-align: center;
+  padding-top: 10px;
+
+  }
